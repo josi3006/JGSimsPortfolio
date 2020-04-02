@@ -1,21 +1,56 @@
 import React from "react";
 
-function Home() {
-  return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
-  );
+class Home extends React.Component {
+
+    state = {
+        text: []
+    };
+
+
+
+
+
+    loopText = () => {
+
+        const textBody = "Here I am.";
+        const textArr = textBody.split("");
+        let renderArr = [];
+
+
+        for (let i = 0; i < textArr.length; i++) {
+
+            // setTimeout(function () {
+
+            setTimeout = () => {
+
+
+                console.log(textArr[i]);
+
+                renderArr.push(textArr[i]);
+
+                console.log(renderArr);
+
+                this.setState({ text: renderArr });
+            }, 100 * i);
+        }
+
+    }
+
+
+
+
+
+
+    render() {
+        return (
+            <div>
+                <h1> Home Page </h1>
+                <p><button onClick={this.loopText}>Click</button></p>
+                <p>{this.state.text}</p>
+            </div >
+        );
+
+    }
 }
 
 export default Home;
