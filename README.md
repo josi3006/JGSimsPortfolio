@@ -1,8 +1,8 @@
-## Granville Sims Portfolio
+# Granville Sims Portfolio
 
-# Full-Stack Web Developer Portfolio
+## Full-Stack Web Developer Portfolio
 
-# Technologies Used
+## Technologies Used
 
 - React/JSX
 - node
