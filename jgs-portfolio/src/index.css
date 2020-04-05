@@ -35,12 +35,12 @@ ul.nav.nav-tabs {
 
 .img-port {
     transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
-  }
-.img-port:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
+  }
+.img-port:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
   }
 
   .img-max {
@@ -54,12 +54,12 @@ ul.nav.nav-tabs {
   .card {
     background: #ffffff;
     border-radius: 2px;
-    height: 325px;
+    height: 300px;
     margin: 4rem;
     position: relative;
-    width: 325px;
+    width: 275px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+    text-align: center;
   }
   
   .card > .img-container {
@@ -76,14 +76,21 @@ ul.nav.nav-tabs {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
+    margin-top: 2rem;
+    text-align: center;
+
   }
   
   .card > .content > ul {
     list-style-type: none;
+    text-align: center;
+
   }
   
   .card > .content > ul > li {
     margin-top: 18px;
+    text-align: center;
+
   }
   
 
