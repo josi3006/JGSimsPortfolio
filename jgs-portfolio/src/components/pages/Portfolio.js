@@ -1,23 +1,45 @@
-import React from "react";
+// import React from "react";
+import React, { Component } from "react";
+import PortfolioCard from "../PortfolioCard";
+import portfolio from "../portfolio.json";
 
-function Portfolio() {
-  return (
-    <div className="container">
-      <div className="row">
 
-        <div className='col-md-4'>
-          <div class="picBox">
-            <a href='https://josi3006.github.io/WeatherApp/' target='_blank'>
-              <img src="../../images/wxPage.png" class='img-fluid' />
-              <div class="linkBox">Weather App</div>
-            </a>
-          </div>
-        </div>
+
+
+
+class Portfolio extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    portfolio
+  };
+
+  render() {
+    return (
+
+      <div>
+      {this.state.portfolio.map(block => (
+        <PortfolioCard
+          id={block.id}
+          key={block.id}
+          name={block.name}
+          image={block.image}
+          url={block.url}
+        />
+      ))}
+
       </div>
-      </div>
 
 
-  );
+
+
+  
+)
+
+
+
+  }
+
+
 }
 
 export default Portfolio;

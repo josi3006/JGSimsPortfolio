@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Employee Directory",
+      "image": "../../images/empTracker.png",
+      "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 2,
+        "name": ".lucidity",
+        "image": "../../images/lucidity.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 3,
+        "name": "Burger Maker",
+        "image": "../../images/burgerpage.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 4,
+        "name": "Daily Planner",
+        "image": "../../images/planPage.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 5,
+        "name": "Coding Quiz",
+        "image": "../../images/codeQuiz.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 6,
+        "name": "Weather Forecast",
+        "image": "../../images/wxPage.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 7,
+        "name": "News Comparison",
+        "image": "../../images/newsPage.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "image": "../../images/pswdApp.png",
+        "url": "A Pineapple Under the Sea"
+    },
+    {
+        "id": 9,
+        "name": "Daily Planner",
+        "image": "../../images/planPage.png",
+        "url": "A Pineapple Under the Sea"
+    }
+   
+  ]
+  
