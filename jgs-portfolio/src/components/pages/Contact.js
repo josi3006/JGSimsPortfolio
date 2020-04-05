@@ -1,31 +1,47 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
+import { Link } from "react-router-dom";
 
-function Contact(props) {
+// import { Link, Route } from "react-router-dom";
+// import Learn from "./Learn";
+
+// function Contact(props) {
+
+
+
+function Contact() {
+
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} />
+
+      <ul>
+        <li>
+          <Link to="https://www.linkedin.com/in/johngranvillesims"><img src="../../images/gitIcon.png" className='mr-3' alt="Github" />
+            LinkedIn: John Granville Sims
+        </Link>
+        </li><li>
+
+          <Link to="https://github.com/josi3006"><img src="../../images/gitIcon.png" className='mr-3' alt="Github" />
+            GitHub: John Granville Sims
+        </Link>
+
+        </li><li>
+
+          <Link to="mailto:JGSims@ProtonMail.com"><img src="../../images/gitIcon.png" className='mr-3' alt="Github" />
+            Email: JGSims@ProtonMail.com
+        </Link>
+        </li><li>
+
+          <Link to="tel:7037279467"><img src="../../images/gitIcon.png" className='mr-3' alt="Github" />
+            Call: 703-727-9467
+        </Link>
+        </li></ul>
+
     </div>
+
+
   );
 }
+
+
 
 export default Contact;

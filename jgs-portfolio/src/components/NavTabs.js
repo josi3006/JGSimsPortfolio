@@ -6,6 +6,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -28,16 +29,12 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
-      </li>
+     
     </ul>
-  );
+
+);
+
+
 }
 
 export default NavTabs;

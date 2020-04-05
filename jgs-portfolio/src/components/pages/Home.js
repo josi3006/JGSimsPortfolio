@@ -5,6 +5,19 @@ class Home extends React.Component {
     state = {
         text: []
     };
+ 
+
+
+    showPic = () => { 
+        var img = document.createElement('img'); 
+        img.src =  "../../images/headshot.png";
+        img.className = "rounded-circle fade-in m-5";
+        img.alt = "Headshot";
+        document.getElementById("picPlace").appendChild(img); 
+    }  
+
+
+
 
 
     loopText1 = () => {
@@ -52,6 +65,7 @@ class Home extends React.Component {
 
 allText = () => {
 
+    setTimeout(this.showPic, 0);
     setTimeout(this.loopText1, 1000);
     setTimeout(this.loopText2, 4400);
     setTimeout(this.loopText3, 9100);
@@ -64,8 +78,8 @@ componentDidMount(){
 
     render() {
         return (
-            <div>
-                <h1> Home Page </h1>
+            <div className="text-center">
+                <div id="picPlace"></div>
                 <div id="homeBody1" className="text-center"></div>
                 <div id="homeBody2" className="text-center"></div>
                 <div id="homeBody3" className="text-center"></div>
