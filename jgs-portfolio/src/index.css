@@ -16,26 +16,32 @@ ul.nav.nav-tabs {
 }
 
 
- /* unvisited link */
  a:link {
     color: #333333;
   }
   
-  /* visited link */
   a:visited {
     color: #333333;
   }
   
-  /* mouse over link */
   a:hover {
-    color: #582b4d;
+    color: #2b3b58;
   }
   
-  /* selected link */
   a:active {
     color: #2b3b58;
   } 
 
+
+.img-port {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+.img-port:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
 
 
 
