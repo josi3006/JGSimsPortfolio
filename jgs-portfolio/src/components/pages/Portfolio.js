@@ -8,7 +8,7 @@ import portfolio from "../portfolio.json";
 
 
 class Portfolio extends Component {
-  // Setting this.state.friends to the friends json array
+
   state = {
     portfolio
   };
