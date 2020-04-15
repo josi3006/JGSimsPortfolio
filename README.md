@@ -2,7 +2,7 @@
 
 ## Portfolio
 
-[Deployed site: ] (https://jgs-portfolio.herokuapp.com/)
+Deployed site: https://jgs-portfolio.herokuapp.com/
 
 ### About
 
