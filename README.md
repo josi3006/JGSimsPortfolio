@@ -4,6 +4,7 @@
 
 Deployed site:  https://jgs-portfolio.herokuapp.com/
 
+![Deployed site: ](https://jgs-portfolio.herokuapp.com/)
 ### About
 
 I am a full-stack web developer located in Richmond, Virginia.  I am seeking opportunities to use my extensive business management experience to leverage people and technology for innovative outcomes.
