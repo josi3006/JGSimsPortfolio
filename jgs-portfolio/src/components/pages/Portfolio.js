@@ -16,7 +16,7 @@ class Portfolio extends Component {
   render() {
     return (
 
-      <span>
+      <div className="wrapper">
       {this.state.portfolio.map(block => (
         <PortfolioCard
           id={block.id}
@@ -27,7 +27,7 @@ class Portfolio extends Component {
         />
       ))}
 
-      </span>
+      </div>
 
 
 

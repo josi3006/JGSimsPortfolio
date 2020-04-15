@@ -11,12 +11,12 @@ function PortfolioCard(props) {
                 </a>
             </div>
             <div className="content">
-        
-            {props.name}
-        
-         
-     
-      </div>
+
+                {props.name}
+
+
+
+            </div>
         </div>
 
     );
