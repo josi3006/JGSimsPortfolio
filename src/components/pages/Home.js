@@ -23,7 +23,7 @@ class Home extends React.Component {
 
     showPic = () => {
         var img = document.createElement('img');
-        img.src = "../../images/Headshot.png";
+        img.src = process.env.PUBLIC_URL + "../../images/Headshot.png";
         img.className = "rounded-circle fade-in m-5";
         img.alt = "Headshot";
         document.getElementById("picPlace").appendChild(img);
