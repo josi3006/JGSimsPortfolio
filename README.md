@@ -2,6 +2,8 @@
 
 ## Portfolio
 
+Deployed site: https://jgs-portfolio.herokuapp.com/
+
 ### About
 
 I am a full-stack web developer located in Richmond, Virginia.  I am seeking opportunities to use my extensive business management experience to leverage people and technology for innovative outcomes.
@@ -10,16 +12,16 @@ I am a full-stack web developer located in Richmond, Virginia.  I am seeking opp
 
 This portfolio was created with:
 
--React
--Bootstrap
--HTML, CSS
+- React
+- Bootstrap
+- HTML, CSS
 
 I am also knowledgable with:
 
--node.js
--APIs, AJAX, Axios
--Express
--MySQL, MongoDB
--JQuery
--Javascript
+- node.js
+- APIs, AJAX, Axios
+- Express
+- MySQL, MongoDB
+- JQuery
+- Javascript
 
