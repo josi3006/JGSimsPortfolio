@@ -70,7 +70,7 @@ function Contact() {
             rel="noopener noreferrer">
             <img src='../../images/emailIcon.png'
               className='mr-3'
-              alt="Email" />Email: JGSims@ProtonMail.com</a>
+              alt="Email" />Email: JohnGranvilleSims@gmail.com</a>
 
         </div>
       </div>
