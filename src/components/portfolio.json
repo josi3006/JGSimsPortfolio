@@ -53,6 +53,18 @@
         "name": "Password Generator",
         "image": "../../images/pswdApp.png",
         "url": "https://josi3006.github.io/PasswordGenerator/"
+    },
+    {
+        "id": 10,
+        "name": "Kirby Aquatics",
+        "image": "../../images/Kirbypic.png",
+        "url": "https://www.KirbyAquatics.com"
+    },
+    {
+        "id": 11,
+        "name": "Recipeezy",
+        "image": "../../images/Recipic.png",
+        "url": "https://josi3006.github.io/Recipeezy"
     }
    
   ]
