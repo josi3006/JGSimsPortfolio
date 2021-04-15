@@ -65,7 +65,7 @@ function Contact() {
         <div className="cold-md-10">
 
 
-          <a href='mailto:JGSims@ProtonMail.com'
+          <a href='mailto:JohnGranvilleSims@gmail.com'
             target='_blank'
             rel="noopener noreferrer">
             <img src='../../images/emailIcon.png'

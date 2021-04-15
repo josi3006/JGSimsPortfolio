@@ -14,8 +14,8 @@
     {
         "id": 3,
         "name": "Roll Call",
-        "image": "../../images/Kirbypic.png",
-        "url": "https://www.KirbyAquatics.com"
+        "image": "../../images/Rollcallpic.png",
+        "url": "https://jgs-rollcall.herokuapp.com/ "
     },
        {
         "id": 4,
